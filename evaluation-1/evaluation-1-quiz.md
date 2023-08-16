@@ -1,8 +1,8 @@
 ## Evaluation #1
 ### Evaluation Quiz: Evaluation #1 - Answers
 
-#### Q0. What does the macro TABLESIZE expand to?
-```
+#### Q0. What does the macro `TABLESIZE` expand to?
+```bash
 #define BUFSIZE 1020
 #define TABLESIZE BUFSIZE
 #undef BUFSIZE
@@ -118,9 +118,100 @@ array[n] = i;
 - [ ] While it is possible to access `array[n]`, we are not supposed to as this is not the array anymore
 - [ ] I don't know
 
-#### Q7. What is the size of a pointer to an int (on a 64-bit architecture)
+#### Q7. What is the size of a pointer to an `int` (on a 64-bit architecture)
 - [ ] 1 byte
 - [ ] 2 bytes
 - [ ] 4 bytes
 - [x] 8 bytes
+- [ ] I don't know
+
+#### Q8. What is the size of `*p` in this code on a 64-bit machine?
+```bash
+int **p;
+```
+- [ ] 4 bytes
+- [x] 8 bytes
+- [ ] 16 bytes
+- [ ] I don't know
+
+#### Q9. What is the result of `12 % 3`?
+- [x] 0
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [ ] 4
+- [ ] I don't know
+
+#### Q10. What does this code print?
+```C
+void print(int nb)
+{
+    printf("%d", nb);
+    -- nb;
+    if (nb > 0) 
+    {
+        print(nb);
+    }
+}
+
+int main(void)
+{
+    print(4);
+    return (0);
+}
+```
+- [x] 4321
+- [ ] 43210
+- [ ] 321
+- [ ] 3210
+- [ ] I don't know
+
+#### Q11. This `void (*anjula[])(int, float)` is:
+- [ ] A pointer to a function that takes an `int` and a `float` as parameters and returns nothing
+- [ ] A pointer to a function that takes an array of `int` and `float` as a parameter and returns nothing
+- [ ] A pointer to a function that takes an `int` and a `float` as parameters and returns an empty array
+- [ ] An array of pointers to functions that take an `int` and a `float` as parameters and returns nothing
+- [x] A pointer to an array of functions that take an `int` and a `float` as parameters and returns nothing
+- [ ] I don't know
+
+#### Q12. The memory space reserved when calling `malloc` is on:
+- [x] The heap
+- [ ] The stack
+- [ ] I don't know
+
+#### Q13. What is the value of `n` after the following code is executed?
+```C
+int n = 98;
+int *p = &n;
+
+*p++;
+```
+- [ ] 0
+- [ ] 98
+- [x] 99
+- [ ] 402
+- [ ] I don't know
+
+#### Q14. How much space would you need to allocate for a list node with the following structure on a 64-bit machine?
+```C
+/**
+ * struct list_s - singly linked list
+ * @str: string - (malloc'ed string)
+ * @len: length of the string
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure
+ * for your project
+ */
+typedef struct list_s
+{
+    char *str;
+    unsigned int len;
+    struct list_s *next;
+} list_t;
+```
+- [ ] 20 bytes
+- [x] It's impossible to know without knowing what `str` is
+- [ ] 24 bytes
+- [ ] 32 bytes
 - [ ] I don't know
