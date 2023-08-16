@@ -87,7 +87,7 @@ int print_something(int num)
 
 - [ ] The `n` times table, starting with 0
 - [ ] The `n` times table, excluding zero
-- [ ] The numbers 0 to `n`, `n` times
+- [x] The numbers 0 to `n`, `n` times
 - [ ] I don't know
 
 #### Q6. What information do the `printf` statements tell us about how our code is executed?
@@ -174,7 +174,7 @@ What information do the `printf` statements tell us about how our code is execut
 
 /**
 * print_shape - function to print a shape
-* /
+*/
 void print_shape(int num1, int num2) 
 {
     int idx1, idx2;
