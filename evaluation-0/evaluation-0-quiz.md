@@ -3,10 +3,10 @@
 
 #### Q0. What command would you use to list files on Linux?
 - [x] ls
-- [] which
-- [] cd
-- [] pwd
-- [] list
-- [] I don't know
+- [ ] which
+- [ ] cd
+- [ ] pwd
+- [ ] list
+- [ ] I don't know
 
 
