@@ -24,7 +24,7 @@
 
 #### Q2. What command(s) can be used to list the symbols stored in a static library?
 Select all valid answers
-- [ ] `nm`
+- [x] `nm`
 - [ ] `ranlib`
 - [ ] `ar`
 - [ ] `ld`
