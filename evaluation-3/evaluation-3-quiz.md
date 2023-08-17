@@ -8,7 +8,7 @@
 - [ ] I don't know
 
 #### Q1. What do these lines print?
-```C
+```python
 >>> a = [1, 2, 3, 4]
 >>> a[2] = 10
 >>> a
@@ -121,16 +121,69 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
         return (ptr);
 }
 ```
-
-- [x] There is no check for if ptr->next is NULL before moving ptr
-- [ ] The function should not return NULL if head is not found.
-- [x] If index is out of range, the program should return NULL
+- [x] There is no check for if `ptr->next` is `NULL` before moving `ptr`
+- [ ] The function should not return `NULL` if `head` is not found.
+- [x] If `index` is out of range, the program should return `NULL`
 - [ ] Nothing is wrong
 - [ ] I don't know
 
+#### Q11. What do these lines print?
+```python
+>>> a = { 'id': 89, 'name': "John", 'projects': [1, 2, 3, 4], 'friends': [ { 'id': 82, 'name': "Bob" }, { 'id': 83, 'name': "Amy" } ] }
+>>> a.get('friends')[-1].get("name")
+```
+- [ ] 89
+- [ ] [{'id':82, 'name':"Bob"}, {'id':83, 'name': "Amy"}]
+- [x] 'Amy'
+- [ ] 'Bob'
+- [ ] Nothing
+- [ ] I don't know
 
+#### Q12. How many bytes will this statement allocate on a 64 bit machine?
+`malloc(sizeof(char) * 4)`
+- [x] 4
+- [ ] 8
+- [ ] 12
+- [ ] 16
+- [ ] I don't know
 
+#### Q13. In a doubly linked list, what are possible directions to traverse it?
+(select all possible answers)
+- [x] Forward
+- [x] Backward
+- [ ] I don't know
 
+#### Q14. What does this print?
+```python
+>>> a = "Python is cool"
+>>> print(a[7:-5])
+```
+- [ ] on
+- [ ] nohtyP
+- [ ] Python
+- [ ] si
+- [x] is
+- [ ] I don't know
 
+#### Q15. Which line of code will create a list of every other number from 0 to 10 in reverse in Python?
+- [x] list(range(10, 0, -2))
+- [ ] array(range(10, 0, -2))
+- [ ] list(range(0, 10, -2))
+- [ ] array(10, 0, 2))
+- [ ] I don't know
 
-
+#### Q16. What do these lines print?
+```python
+a = 12
+if a > 2:
+    if a % 2 == 0:
+        print("Tech")
+    else:
+        print("C is fun")
+else:
+    print("School")
+```
+- [x] Tech
+- [ ] C is fun
+- [ ] School
+- [ ] I don't know
