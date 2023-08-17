@@ -36,7 +36,7 @@
 - [ ] I don't know
 
 #### Q5. Choose the line of code to replace the comment below so the function prints a given string without a lower or uppercase `c`.
-```bash
+```C
 >>>def no_c_print(s):
 ...    new_string = ''
 ...    for character in s:
@@ -95,7 +95,7 @@ carrie@ubuntu:/debugging$ ./a.out
 - [ ] I don't know
 
 #### Q7. Choose a statement that would complete the function that returns a string made up of `+` `n` number of times (assuming `n` > 0).
-```bash
+```C
 >>> def print_plus(n):
 ...         # REPLACE THIS LINE
 ...
@@ -163,7 +163,7 @@ user@ubuntu:/debugging$
 - [ ] I don't know
 
 #### Q10. What does this command line print?
-```bash
+```C
 >>> a = "Hello, world!"
 >>> print(a[:5])
 ```
@@ -201,7 +201,7 @@ array[n] = i;
 - [ ] I don't know
 
 #### Q14. What does this print?
-```bash
+```C
 >>> print("My favorite line of {} is {:d}.".format("The Zen of Python", 11))
 ```
 - [ ] My favorite line of The Zen of Python is 11.
