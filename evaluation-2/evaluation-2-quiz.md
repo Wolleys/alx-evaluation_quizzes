@@ -55,7 +55,7 @@
 #### Q6. The following code gives this incorrect output.
 Which of the following statements about what is causing the error is true? (select all valid answers)
 
-```bash
+```C
 user@ubuntu:/debugging$ cat main.c                               
 #include <stdio.h>                                                                                 
 
@@ -84,10 +84,10 @@ user@ubuntu:/debugging$
 ```
 
 ```bash
-carrie@ubuntu:/debugging$ gcc -Wall -Werror -Wextra -pedantic main.c                                                                                                  
-carrie@ubuntu:/debugging$ ./a.out
+user@ubuntu:/debugging$ gcc -Wall -Werror -Wextra -pedantic main.c                                                                                                  
+user@ubuntu:/debugging$ ./a.out
 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 <...>
-^Ccarrie@ubuntu:/debugging$
+^Cuser@ubuntu:/debugging$
 ```
 - [x] `j` never increments so it will always be less than `10`
 - [ ] `j` is always equal to `i` so the loop will never end
