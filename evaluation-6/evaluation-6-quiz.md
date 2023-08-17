@@ -208,7 +208,7 @@ if __name__ == "__main__":
 #### Q17. Which of the following statements about what is causing the error is true? (select all valid answers)
 The following code gives this incorrect output
 ```C
-carrie@ubuntu:/debugging$ cat main.c                               
+user@ubuntu:/debugging$ cat main.c                               
 #include <stdio.h>                                                                                 
 
 /**                                                                                                
@@ -232,10 +232,10 @@ int main(void)
 
         return (0);                                                                                
 }                                                                                                  
-carrie@ubuntu:/debugging$
+user@ubuntu:/debugging$
 
-carrie@ubuntu:/debugging$ gcc -Wall -Werror -Wextra -pedantic main.c                                                                                                  
-carrie@ubuntu:/debugging$ ./a.out
+user@ubuntu:/debugging$ gcc -Wall -Werror -Wextra -pedantic main.c                                                                                                  
+user@ubuntu:/debugging$ ./a.out
 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 <...>
 ^Ccarrie@ubuntu:/debugging$
 ```
