@@ -113,7 +113,7 @@ user@ubuntu:/debugging$ ./a.out
 #### Q8. In the main.c file, on what line is the first error that the compiler returns?
 Look at the following code.
 
-```bash
+```C
 user@ubuntu:/debugging$ cat main.c                                
 #include <stdio.h>                                                                                  
 
@@ -187,7 +187,7 @@ user@ubuntu:/debugging$
 - [ ] I don't know
 
 #### Q13. What is wrong with the following code?
-```bash
+```C
 int n = 0;
 int array[5];
 int i = 5;
