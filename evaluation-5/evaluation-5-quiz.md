@@ -189,6 +189,6 @@ void f(int n)
 #### Q18. What command would you use to stop a process named `dontstopmenow`?
 - [ ] `pkill -f dontstopmenow`
 - [ ] `kill -f dontstopmenow`
-- [ ] `kill dontstopmenow`
+- [x] `kill dontstopmenow`
 - [ ] `pgrep -f dontstopmenow`
 - [ ] I don't know
