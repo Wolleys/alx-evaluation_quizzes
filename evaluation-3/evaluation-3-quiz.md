@@ -8,7 +8,7 @@
 - [ ] I don't know
 
 #### Q1. What do these lines print?
-```C
+```bash
 >>> a = [1, 2, 3, 4]
 >>> a[2] = 10
 >>> a
