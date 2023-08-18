@@ -99,6 +99,63 @@ int main(void)
 - [x] 5XX
 - [ ] I don't know
 
+#### Q11. `0x13`<< 1 = ?
+- [x] 0x13
+- [ ] 0x12
+- [ ] 0x26
+- [ ] 0x4C
+- [ ] I don't know
+
+#### Q12. What is the name of the HTTP request header that defines the size (in bytes) of the message body?
+- [x] Content-Length
+- [ ] Length
+- [ ] Content-Size
+- [ ] Size
+- [ ] I don't know
+
+#### Q13. What is the time complexity (worst case) of a binary search in an array of size `n`?
+- [x] O(log(n))
+- [ ] O(1)
+- [ ] O(n!)
+- [ ] O(n^2)
+- [ ] I don't know
+
+#### Q14. What is the output of the following piece of code?
+```C
+int i;
+
+i = 10;
+while (i < 20)
+{
+    printf("%d", i % 2);
+    i++;
+}
+```
+- [x] 0101010101
+- [ ] 0123456789
+- [ ] 1010101010
+- [ ] I don't know
+
+#### Q15. What do these lines print?
+```python
+>>> class User:
+>>>     id = 89
+>>>     name = "no name"
+>>>     __password = None
+>>>     
+>>>     def __init__(self, new_name=None):
+>>>         self.is_new = True
+>>>         if new_name is not None:
+>>>             self.name = new_name
+>>> 
+>>> u = User()
+>>> u.name
+```
+- [ ] name
+- [x] None
+- [ ] 'John'
+- [ ] 'no name'
+- [ ] I don't know
 
 
 
