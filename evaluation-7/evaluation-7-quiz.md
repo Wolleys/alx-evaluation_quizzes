@@ -157,28 +157,28 @@ while (i < 20)
 - [ ] 'no name'
 - [ ] I don't know
 
+#### Q16. What is the space complexity of this function / algorithm?
+```C
+int **allocate_map(int n, int m)
+{
+     int **map;
 
+     map = malloc(sizeof(int *) * n);
+     for (size_t i = 0; i < n; i++)
+     {
+          map[i] = malloc(sizeof(int) * m);
+     }
+     return (map);
+}
+```
+- [ ] O(nm)
+- [ ] O(n^2)
+- [x] O(log(n))
+- [ ] O(1)
+- [ ] I don't know
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#### Q17. Which symbol should I use to redirect the error output to the standard output?
+- [ ] 2>&1
+- [ ] 1>&2
+- [x] 2>
+- [ ] I don't know
