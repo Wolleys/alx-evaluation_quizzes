@@ -115,24 +115,32 @@ def uniq(list):
 - [ ] is cool
 - [ ] I don't know
 
+#### Q13. What is wrong with the following code?
+```python
+int n = 0;
+int array[5];
+int i = 3;
 
+array[n] = i;
+```
+- [x] Nothing is wrong
+- [ ] It is impossible to declare the variable `array` this way
+- [ ] The array `array` is not entirely initialized
+- [ ] It is not possible to access `array[n]`
+- [ ] I don't know
 
+#### Q14. How do you print the name of the current working directory on Linux?
+- [ ] ls
+- [ ] which
+- [ ] list
+- [ ] cd
+- [x] pwd
+- [ ] I don't know
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#### Q15. What are the different steps to form an executable file from C source code?
+- [ ] Interpretation, compilation and assembly
+- [x] Preprocessing, compilation, assembly, and linking
+- [ ] Interpretation, assembly and compilation
+- [ ] Compilation and linking
+- [ ] Preprocessing and compilation
+- [ ] I don't know
