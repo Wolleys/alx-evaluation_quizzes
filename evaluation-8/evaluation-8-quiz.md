@@ -81,6 +81,43 @@ def uniq(list):
 - [ ] Instance method that returns the dictionary representation of an instance
 - [ ] I don't know
 
+#### Q8. In a doubly linked list, what’s the “tail” of a linked list?
+- [x] It's the node with the pointer to the next node equal to `NULL`
+- [ ] It's the node with the pointer to the previous node equal to `NULL`
+- [ ] I don't know
+
+#### Q9. What are the layers of the OSI model?
+- [x] Physical, Data Link, Network, Transport, Session, Presentation, Application
+- [ ] Physical, Network, Transport, Presentation, Application
+- [ ] Application, Session, Information, Packets, TCP/UDP
+- [ ] Physical, Network, Transport, Session, Presentation, Application
+- [ ] I don't know
+
+#### Q10. What is a server?
+- [x] A server is a device, a virtual device or computer program or providing functionality for other programs or devices, called “clients”.
+- [ ] A server is a software that serves web pages.
+- [ ] A server is returning information to other computers when asked.
+- [ ] I don't know
+
+#### Q11. What is `98` in base 16?
+- [x] `0x62`
+- [ ] `0x98`
+- [ ] `0x96`
+- [ ] I don't know
+
+#### Q12. What does this print?
+```python
+>>> a = "Python is cool"
+>>> print(a[:6])
+```
+- [x] Python
+- [ ] Python is cool
+- [ ] is cool
+- [ ] I don't know
+
+
+
+
 
 
 
